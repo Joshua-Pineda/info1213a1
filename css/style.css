@@ -1,0 +1,207 @@
+/*index css*/
+body {
+  background-color: #EAF6F6;
+  font-family: 'Ubuntu', sans-serif;
+  border: 20px solid transparent;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-color: grey;
+  border-width: 5px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #66BFBF;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: #595959;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+/*form style*/
+input[type=text] {
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  display: block;
+  border-radius: 4px;
+}
+
+input[type=email] {
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  display: block;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  display: block;
+  border-radius: 4px;
+}
+
+/*classes index.html*/
+.title-one {
+  font-size: 5rem;
+  color: #50BFBF;
+  font-family: 'Merienda', cursive;
+  font-weight: 100;
+}
+
+.title-two {
+  font-size: 5rem;
+  color: #66BFBF;
+  font-family: 'Merienda', cursive;
+  font-weight: bolder;
+}
+
+.index {
+  margin: 0 auto;
+  width: 400px;
+  box-shadow: 2px 5px #778899;
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+
+.laptop img {
+  height: 230px;
+  width: 280px;
+  position: relative;
+  left: 50px;
+}
+
+.grad img {
+  height: 230px;
+  width: 280px;
+  position: relative;
+  left: 900px;
+}
+
+.skills img {
+  height: 230px;
+  width: 280px;
+  position: relative;
+  left: 50px;
+}
+
+.contact-me img {
+  height: 230px;
+  width: 280px;
+  position: relative;
+  left: 900px;
+  padding-bottom: 30px;
+}
+
+.social-media img {
+  height: 50px;
+  width: 600;
+  position: relative;
+  left: 42%
+}
+
+.firsthr {
+  border-style: solid;
+  width: 80%;
+  border-color: grey;
+  border-width: 2px
+}
+
+.media {
+  position: relative;
+  left: 42%;
+  width: 200px;
+  text-decoration-color: black;
+}
+
+a:hover {
+  color: #778899;
+  text-decoration: none;
+}
+
+.myButton {
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  position: relative;
+  left: 450px;
+  cursor: pointer;
+  color: #3a8a9e;
+  font-family: Verdana;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  margin-top: 10px;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/*contact.html classes*/
+.contact {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.info-box {
+  margin: auto;
+  margin-top: 30px;
+  border: none;
+  padding: 5px;
+  width: 900px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 2px 5px #778899;
+  border: none;
+  padding: 10px;
+  width: 300px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: white;
+}
